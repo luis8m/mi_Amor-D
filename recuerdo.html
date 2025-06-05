@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TE AMO</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="recuerdo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Fondo de corazones animados -->
+    <div class="contenedor">
+        <div class="corazon_cora">
+            <div class="heart heart1">
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="corazon_cora">
+            <div class="heart heart2">
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="corazon_cora">
+            <div class="heart heart3">
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="corazon_cora">
+            <div class="heart heart4">
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="corazon_cora">
+            <div class="heart heart5">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+
+    <header class="container-navegacion">
+        <ul>
+            <a href="index.html"><li>Música <img src="music-solid.svg" alt=""></li></a>
+            <a href="recuerdo.html"><li>AQUI<img src="heart-solid.svg" alt=""></li></a>
+        </ul>
+    </header>
+
+    <main class="galeria-recuerdos">
+        <figure class="marco-foto">
+            <a href="#">
+                <img src="recuerdos/imagen1.jpg" alt="Nuestro recuerdo 1">
+                <div class="corazon-foto"><i class="fas fa-heart"></i></div>
+            </a>
+        </figure>
+        
+        <figure class="marco-foto">
+            <a href="#">
+                <img src="recuerdos/imagen2.jpg" alt="Nuestro recuerdo 2">
+                <div class="corazon-foto"><i class="fas fa-heart"></i></div>
+            </a>
+        </figure>
+        
+        <figure class="marco-foto">
+            <a href="#">
+                <img src="recuerdos/imagen3.jpg" alt="Nuestro recuerdo 3">
+                <div class="corazon-foto"><i class="fas fa-heart"></i></div>
+            </a>
+        </figure>
+        
+        <figure class="marco-foto">
+            <a href="#">
+                <img src="recuerdos/imagen4.jpg" alt="Nuestro recuerdo 4">
+                <div class="corazon-foto"><i class="fas fa-heart"></i></div>
+            </a>
+        </figure>
+        
+        <figure class="marco-foto">
+            <a href="#">
+                <img src="recuerdos/imagen5.jpg" alt="Nuestro recuerdo 5">
+                <div class="corazon-foto"><i class="fas fa-heart"></i></div>
+            </a>
+        </figure>
+        
+        <figure class="marco-foto">
+            <a href="#">
+                <img src="recuerdos/imagen6.jpg" alt="Nuestro recuerdo 6">
+                <div class="corazon-foto"><i class="fas fa-heart"></i></div>
+            </a>
+        </figure>
+        
+        <figure class="marco-foto">
+            <a href="#">
+                <img src="recuerdos/imagen7.jpg" alt="Nuestro recuerdo 7">
+                <div class="corazon-foto"><i class="fas fa-heart"></i></div>
+            </a>
+        </figure>
+    </main>
+    <!-- Modal para las frases de amor -->
+<div id="fraseModal" class="modal-frase">
+  <div class="modal-contenido">
+    <span class="cerrar-modal">&times;</span>
+    <p id="fraseAmor" class="texto-frase"></p>
+  </div>
+</div>
+
+    <script src="nieve.js"></script>
+    <script src="frases.js"></script>
+</body>
+</html>
